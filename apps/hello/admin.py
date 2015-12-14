@@ -1,3 +1,9 @@
 from django.contrib import admin
+from apps.hello.models import BIO
 
-# Register your models here.
+
+class AdminBIO(admin.ModelAdmin):
+    pass
+
+admin.site.register(BIO, AdminBIO)
+
