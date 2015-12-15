@@ -1,0 +1,31 @@
+[
+  {
+    "model": "hello.bio",
+    "pk": 1,
+    "fields": {
+      "first_name": "Pavlo",
+      "last_name": "Shulga",
+      "birth": "1995-07-11",
+      "biography": "Python developer, live in Kiev",
+      "phone": "0992340286",
+      "skype": "pashashulga"
+    }
+  },
+  {
+    "fields": {
+        "is_superuser": true,
+        "groups": [],
+        "last_name": "",
+        "user_permissions": [],
+        "username": "admin",
+        "password": "pbkdf2_sha256$12000$CHo94nl630zV$HEuAea5HyHjvEFSxE/LLdGYTkDIqcDfAxYdGV1qMc+0=",
+        "email": "",
+        "is_active": true,
+        "date_joined": "2015-12-15T12:16:04.946Z",
+        "first_name": "",
+        "is_staff": true
+    },
+    "model": "auth.user",
+    "pk": 1
+}
+]
